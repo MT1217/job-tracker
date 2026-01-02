@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://job-tracker-frontend-52sk.onrender.com/",
   credentials: true
 }));
 
